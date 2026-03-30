@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drone Show — Hào Khí Non Sông</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Loading -->
+  <div id="loading-screen">
+    <div class="loading-bar-wrap">
+      <div class="loading-bar-fill" id="loading-bar"></div>
+    </div>
+  </div>
+
+  <!-- Canvas -->
+  <canvas id="drone-canvas"></canvas>
+
+  <!-- Minimal controls (hidden until hover) -->
+  <div id="controls">
+    <button class="ctrl-btn" id="btn-prev">◀</button>
+    <div class="progress-dot active" data-act="0"></div>
+    <div class="progress-dot" data-act="1"></div>
+    <div class="progress-dot" data-act="2"></div>
+    <div class="progress-dot" data-act="3"></div>
+    <div class="progress-dot" data-act="4"></div>
+    <button class="ctrl-btn" id="btn-next">▶</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
